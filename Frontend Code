@@ -1,0 +1,132 @@
+
+<!doctype html>
+<html
+	lang="en"
+	style="
+		margin: 0;
+		padding: 0;
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+	"
+>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta property="og:title" content="Gradio" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{url}" />
+		<meta property="og:description" content="Click to try out the app!" />
+		<meta
+			property="og:image"
+			content="https://raw.githubusercontent.com/gradio-app/gradio/main/js/_website/src/lib/assets/img/header-image.jpg"
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@Gradio" />
+		<meta name="twitter:title" content="Gradio" />
+		<meta name="twitter:description" content="Click to try out the app!" />
+		<meta
+			name="twitter:image"
+			content="https://raw.githubusercontent.com/gradio-app/gradio/main/js/_website/src/lib/assets/img/header-image.jpg"
+		/>
+
+		<style>
+			:root {
+				--bg: white;
+				--col:   #27272a;
+				--bg-dark: #0f0f11;
+				--col-dark: #f4f4f5;
+			}
+
+
+			body {
+				background: var(--bg);
+				color: var(--col);
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				body {
+					background: var(--bg-dark);
+					color: var(--col-dark);
+				}
+			}
+		</style>
+
+		<meta property="og:url" content="https://gradio.app/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="" />
+		<meta property="og:title" content="🛡️ RespectNet" />
+		<meta
+			property="og:description"
+			content=""
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@teamGradio" />
+		<meta name="twitter:title" content="🛡️ RespectNet" />
+		<meta
+			name="twitter:description"
+			content=""
+		/>
+		<meta name="twitter:image" content="" />
+
+		<script>window.gradio_config = {"version":"5.50.0","api_prefix":"/gradio_api","mode":"interface","app_id":4842371507878816781,"dev_mode":false,"vibe_mode":false,"analytics_enabled":true,"components":[{"id":5,"type":"markdown","props":{"value":"\u003ch1 style=\u0027text-align: center; margin-bottom: 1rem\u0027\u003e🛡️ RespectNet\u003c/h1\u003e","show_label":false,"rtl":false,"latex_delimiters":[{"left":"$$","right":"$$","display":true}],"visible":true,"elem_classes":[],"preserved_by_key":["value"],"sanitize_html":true,"line_breaks":false,"header_links":false,"show_copy_button":false,"container":false,"padding":false,"name":"markdown","_selectable":false},"skip_api":false,"component_class_id":"543eb5f8dcfca947ba66ab196db059c79cdca82621b183bfcd8bbe4afebcd005","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"# Hello!"},{"id":6,"type":"markdown","props":{"value":"Toxic content detection — hate speech, cyberbullying, harassment, racism.","show_label":false,"rtl":false,"latex_delimiters":[{"left":"$$","right":"$$","display":true}],"visible":true,"elem_classes":[],"preserved_by_key":["value"],"sanitize_html":true,"line_breaks":false,"header_links":false,"show_copy_button":false,"container":false,"padding":false,"name":"markdown","_selectable":false},"skip_api":false,"component_class_id":"543eb5f8dcfca947ba66ab196db059c79cdca82621b183bfcd8bbe4afebcd005","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"# Hello!"},{"id":7,"type":"row","props":{"variant":"default","visible":true,"equal_height":false,"show_progress":false,"preserved_by_key":[],"name":"row"},"skip_api":true,"component_class_id":"d31af921ae188765327079cfc062d57afc3fd6f1774765ed869512a94f7c5c22","key":null},{"id":8,"type":"column","props":{"scale":1,"min_width":320,"variant":"default","visible":true,"show_progress":false,"preserved_by_key":[],"name":"column"},"skip_api":true,"component_class_id":"d32cc8b06253a743628a25220fc5e2a82556f3b9f3a8810ac82cd17bb190798c","key":null},{"id":9,"type":"column","props":{"scale":1,"min_width":320,"variant":"default","visible":true,"show_progress":false,"preserved_by_key":[],"name":"column"},"skip_api":true,"component_class_id":"d32cc8b06253a743628a25220fc5e2a82556f3b9f3a8810ac82cd17bb190798c","key":null},{"id":0,"type":"textbox","props":{"type":"text","lines":4,"placeholder":"Enter text to analyze...","label":"text","show_label":true,"container":true,"min_width":160,"visible":true,"autofocus":false,"autoscroll":true,"elem_classes":[],"preserved_by_key":["value"],"rtl":false,"show_copy_button":false,"submit_btn":false,"stop_btn":false,"name":"textbox","_selectable":false},"skip_api":false,"component_class_id":"9662103783aaa2c9d411262219a021534ef712eba183b6b1911957c1aa61468e","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"Hello!!"},{"id":10,"type":"form","props":{"scale":0,"min_width":0,"preserved_by_key":[],"name":"form"},"skip_api":true,"component_class_id":"40d4832c92b433558cfc7a2a218841dc7dec54c8c9f9470aa3fca95c935b8614","key":null},{"id":11,"type":"row","props":{"variant":"default","visible":true,"equal_height":false,"show_progress":false,"preserved_by_key":[],"name":"row"},"skip_api":true,"component_class_id":"d31af921ae188765327079cfc062d57afc3fd6f1774765ed869512a94f7c5c22","key":null},{"id":12,"type":"button","props":{"value":"Clear","variant":"secondary","size":"lg","visible":true,"interactive":true,"elem_classes":[],"preserved_by_key":["value"],"show_api":false,"name":"button","_selectable":false},"skip_api":true,"component_class_id":"e74051be11892c3838c5fdb91c0b2cea4f84c5414afe5e9bfd1c88dd5b125fbc","key":null},{"id":13,"type":"button","props":{"value":"Submit","variant":"primary","size":"lg","visible":true,"interactive":true,"elem_classes":[],"preserved_by_key":["value"],"name":"button","_selectable":false},"skip_api":true,"component_class_id":"d94e42bc0de64d88926a97585021956fe523296790198ad29a92dcb81a90b02d","key":null},{"id":14,"type":"column","props":{"scale":1,"min_width":320,"variant":"default","visible":true,"show_progress":false,"preserved_by_key":[],"name":"column"},"skip_api":true,"component_class_id":"d32cc8b06253a743628a25220fc5e2a82556f3b9f3a8810ac82cd17bb190798c","key":null},{"id":1,"type":"textbox","props":{"type":"text","lines":1,"label":"Predicted Category","show_label":true,"container":true,"min_width":160,"interactive":false,"visible":true,"autofocus":false,"autoscroll":true,"elem_classes":[],"preserved_by_key":["value"],"rtl":false,"show_copy_button":false,"submit_btn":false,"stop_btn":false,"name":"textbox","_selectable":false},"skip_api":false,"component_class_id":"9662103783aaa2c9d411262219a021534ef712eba183b6b1911957c1aa61468e","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"Hello!!"},{"id":2,"type":"textbox","props":{"type":"text","lines":1,"label":"Risk Level","show_label":true,"container":true,"min_width":160,"interactive":false,"visible":true,"autofocus":false,"autoscroll":true,"elem_classes":[],"preserved_by_key":["value"],"rtl":false,"show_copy_button":false,"submit_btn":false,"stop_btn":false,"name":"textbox","_selectable":false},"skip_api":false,"component_class_id":"9662103783aaa2c9d411262219a021534ef712eba183b6b1911957c1aa61468e","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"Hello!!"},{"id":3,"type":"textbox","props":{"type":"text","lines":6,"label":"Per-Category Scores","show_label":true,"container":true,"min_width":160,"interactive":false,"visible":true,"autofocus":false,"autoscroll":true,"elem_classes":[],"preserved_by_key":["value"],"rtl":false,"show_copy_button":false,"submit_btn":false,"stop_btn":false,"name":"textbox","_selectable":false},"skip_api":false,"component_class_id":"9662103783aaa2c9d411262219a021534ef712eba183b6b1911957c1aa61468e","key":null,"api_info":{"type":"string"},"api_info_as_input":{"type":"string"},"api_info_as_output":{"type":"string"},"example_inputs":"Hello!!"},{"id":15,"type":"row","props":{"variant":"default","visible":true,"equal_height":false,"show_progress":false,"preserved_by_key":[],"name":"row"},"skip_api":true,"component_class_id":"d31af921ae188765327079cfc062d57afc3fd6f1774765ed869512a94f7c5c22","key":null},{"id":16,"type":"button","props":{"value":"Flag","variant":"secondary","size":"lg","visible":true,"interactive":true,"elem_classes":[],"preserved_by_key":["value"],"name":"button","_selectable":false},"skip_api":true,"component_class_id":"d94e42bc0de64d88926a97585021956fe523296790198ad29a92dcb81a90b02d","key":null},{"id":17,"type":"form","props":{"scale":0,"min_width":0,"preserved_by_key":[],"name":"form"},"skip_api":true,"component_class_id":"40d4832c92b433558cfc7a2a218841dc7dec54c8c9f9470aa3fca95c935b8614","key":null}],"css":"","connect_heartbeat":false,"js":"","head":"","title":"🛡️ RespectNet","space_id":null,"enable_queue":true,"show_error":false,"show_api":true,"is_colab":true,"max_file_size":null,"stylesheets":["https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600\u0026display=swap"],"theme":"default","protocol":"sse_v3","body_css":{"body_background_fill":"white","body_text_color":"#27272a","body_background_fill_dark":"#0f0f11","body_text_color_dark":"#f4f4f5"},"fill_height":false,"fill_width":false,"theme_hash":"2fa39f6df94156f7ef9d84370dbb2657d672827c75f082ac995879c32290c5ca","pwa":false,"pages":[["","Home",true]],"page":{"":{"layout":{"id":4,"children":[{"id":5},{"id":6},{"id":7,"children":[{"id":8,"children":[{"id":9,"children":[{"id":10,"children":[{"id":0}]}]},{"id":11,"children":[{"id":12},{"id":13}]}]},{"id":14,"children":[{"id":17,"children":[{"id":1},{"id":2},{"id":3}]},{"id":15,"children":[{"id":16}]}]}]}]},"components":[5,6,7,8,9,0,10,11,12,13,14,1,2,3,15,16,17],"dependencies":[0,1,2,3,4,5]}},"mcp_server":false,"i18n_translations":null,"dependencies":[{"id":0,"targets":[[13,"click"],[0,"submit"]],"inputs":[0],"outputs":[1,2,3],"backend_fn":true,"js":null,"queue":true,"api_name":"predict","api_description":null,"scroll_to_output":true,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":true,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":[],"js_implementation":null},{"id":1,"targets":[[12,"click"]],"inputs":[],"outputs":[0,1,2,3],"backend_fn":false,"js":"() =\u003e [null, null, null, null]","queue":false,"api_name":"js_fn","api_description":null,"scroll_to_output":false,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":false,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":null,"js_implementation":null},{"id":2,"targets":[[12,"click"]],"inputs":[],"outputs":[9],"backend_fn":false,"js":"() =\u003e [{\"variant\": null, \"visible\": true, \"__type__\": \"update\"}]\n            ","queue":false,"api_name":"js_fn_1","api_description":null,"scroll_to_output":false,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":false,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":null,"js_implementation":null},{"id":3,"targets":[[16,"click"]],"inputs":[],"outputs":[16],"backend_fn":true,"js":null,"queue":false,"api_name":"lambda","api_description":null,"scroll_to_output":false,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":false,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":null,"js_implementation":null},{"id":4,"targets":[[16,"click"]],"inputs":[0,1,2,3],"outputs":[16],"backend_fn":true,"js":null,"queue":false,"api_name":"Flag","api_description":null,"scroll_to_output":false,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":false,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":null,"js_implementation":null},{"id":5,"targets":[[12,"click"]],"inputs":[],"outputs":[16],"backend_fn":true,"js":null,"queue":false,"api_name":"reset","api_description":null,"scroll_to_output":false,"show_progress":"full","show_progress_on":null,"batch":false,"max_batch_size":4,"cancels":[],"types":{"generator":false,"cancel":false},"collects_event_data":false,"trigger_after":null,"trigger_only_on_success":false,"trigger_only_on_failure":false,"trigger_mode":"once","show_api":false,"rendered_in":null,"render_id":null,"connection":"sse","time_limit":null,"stream_every":0.5,"like_user_message":false,"event_specific_args":null,"js_implementation":null}],"layout":{"id":4,"children":[{"id":5},{"id":6},{"id":7,"children":[{"id":8,"children":[{"id":9,"children":[{"id":10,"children":[{"id":0}]}]},{"id":11,"children":[{"id":12},{"id":13}]}]},{"id":14,"children":[{"id":17,"children":[{"id":1},{"id":2},{"id":3}]},{"id":15,"children":[{"id":16}]}]}]}]},"username":null,"deep_link_state":"none","current_page":"","root":"https://85753ac7b196e54ca7.gradio.live"};</script><script>window.gradio_api_info = {"named_endpoints":{"/predict":{"parameters":[{"label":"text","parameter_name":"text","parameter_has_default":false,"parameter_default":null,"type":{"type":"string"},"python_type":{"type":"str","description":""},"component":"Textbox","example_input":"Hello!!"}],"returns":[{"label":"Predicted Category","type":{"type":"string"},"python_type":{"type":"str","description":""},"component":"Textbox"},{"label":"Risk Level","type":{"type":"string"},"python_type":{"type":"str","description":""},"component":"Textbox"},{"label":"Per-Category Scores","type":{"type":"string"},"python_type":{"type":"str","description":""},"component":"Textbox"}],"show_api":true,"description":""}},"unnamed_endpoints":{}};</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.contentWindow.min.js"
+			async
+		></script>
+		<script data-gradio-mode>
+			window.__gradio_mode__ = "app";
+			window.iFrameResizer = {
+				autoResize: false,
+				sizeWidth: false
+			};
+			window.parent?.postMessage(
+				{ type: "SET_SCROLLING", enabled: false },
+				"*"
+			);
+		</script>
+		<link rel="manifest" href="/manifest.json" />
+		<script type="module" crossorigin src="./assets/index-DputZZxm.js"></script>
+		<link rel="stylesheet" crossorigin href="./assets/index-CCA5X64I.css">
+	</head>
+
+	<body
+		style="
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+		"
+	>
+		<gradio-app
+			control_page_title="true"
+			embed="false"
+			eager="true"
+			style="display: flex; flex-direction: column; flex-grow: 1"
+		>
+		</gradio-app>
+		<script>
+			const ce = document.getElementsByTagName("gradio-app");
+
+			if (ce[0]) {
+				ce[0].addEventListener("domchange", () => {
+					document.body.style.padding = "0";
+				});
+				document.body.style.padding = "0";
+			}
+		</script>
+	</body>
+</html>
